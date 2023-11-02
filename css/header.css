@@ -1,15 +1,23 @@
-#page1{
-    width:auto;
-    vertical-align: top;
-    background: url("https://wallpapercave.com/wp/wp2081170.jpg" )  ;
-  }
-  
+
+header{
+  width:auto;
+  vertical-align: top;
+  background: url("https://wallpapercave.com/wp/wp2081170.jpg" )  ;
+}
+
+.hautpage1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
   
   
   section.hautpage1 {
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
+  vertical-align: top;
+
   }
   
   section.hautpage1 .navig {
@@ -24,33 +32,17 @@
   
   /*  bouton  */
   
-  div.navig nav ul{
-    padding-left: 15px;
-    vertical-align: top;
-    
-  }
-  nav ul li.bouton{
-    list-style-type: none;
-    display: inline-block;
-  }
-  nav ul li.bouton a{
-    text-decoration: none ;
-    padding:15px;
-    background-color : #400080;
-    color: white
-  }
-  nav ul li.bouton:hover a{
-    transition: 0.5s all;
-    background-color : white;
-    color: #400080
-  }
+
   
   
   /* logo */
-  div.logo-haut {
-    padding-top: px ;
-    vertical-align: top; 
+
+ @media(max-width : 750px){
+    div.logo-haut {
+  visibility: hidden;
   }
+}
+  
   
   /* search  */
   
@@ -146,4 +138,3 @@
           overflow-y: scroll; 
           margin:0
     }
-     
