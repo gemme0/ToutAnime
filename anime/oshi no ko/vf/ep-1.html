@@ -1,0 +1,230 @@
+<<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="vierport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+		<link rel="stylesheet" type="text/css" href="https://cdn.statically.io/gh/gemme0/ToutAnime/main/css/bouton-navig.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.statically.io/gh/gemme0/ToutAnime/main/css/header.css" >
+    <link rel="stylesheet" type="text/css" href="https://cdn.statically.io/gh/gemme0/ToutAnime/main/css/style.css" >
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<title>ToutAnime</title>
+	</head>
+<body>
+	<header>
+		<div class="hautpage1">	
+	
+            <div class="menu-container">
+                <div class="button">
+                    Menu
+                    <span class="fas fa-bars" id="bnt"></span>
+                </div>
+                <ul class="menu-navig">
+                    <li><a href="https://cdn.statically.io/gh/gemme0/ToutAnime/main/index.html">accueil</a></li>
+                    <li><a href="https://cdn.statically.io/gh/gemme0/ToutAnime/main/anime%20vf.html">anime vf</a></li>
+                    <li><a href="https://cdn.statically.io/gh/gemme0/ToutAnime/main/anime%20vostfr.html">anime vostfr</a></li>
+                </ul>
+
+            </div>
+			<div class="portable">
+				<input type="checkbox" id="check">
+				<label for="check" class="portable">
+				<i class="fas fa-bars" id="btn"></i>
+				<i class="fas fa-times" id="cancel"></i>
+				</label>
+				<div class="sidebar">
+				<header class="portable">
+                    ToutAnime
+				</header>
+				<a href="https://cdn.statically.io/gh/gemme0/ToutAnime/main/index.html" class="portable">
+					<i class="fas"></i>
+					<span class="portable">accueil</span>
+				</a>
+				<a href="https://cdn.statically.io/gh/gemme0/ToutAnime/main/anime%20vf.html" class="portable">
+					<i class="fas"></i>
+					<span class="portable">anime vf</span>
+				</a>
+				<a href="https://cdn.statically.io/gh/gemme0/ToutAnime/main/anime%20vostfr.html" class="portable">
+					<i class="fas"></i>
+					<span class="portable">anime vostfr</span>
+				</a>
+				</div>
+                <style>.portable{ display: none;}  @media all and (max-width : 750px){.portable{display: block; }}
+                </style>
+			</div>
+			
+			<div class="navig">
+				<img class="logo-haut" src="https://cdn.statically.io/gh/gemme0/ToutAnime/main/img/ToutAnime.png" width="150">
+                <style> @media all and (max-width : 750px){.logo-haut { display: none; } }</style>
+			</div>
+
+			<div class="navig">
+				<div class="select-box">
+					<div class="options-container">
+						<div class="option">
+							<entrée
+							type="text"
+							
+							id="automobiles"
+							name="search"/>
+							
+						</Div>
+						<div class="option">
+							<input id="searchbar" onkeyup="search()" type="text"
+							name="search" placeholder="recherche un anime..">
+						</Div>
+						
+						<ol class="list"> 
+				
+							<div  class="animals">
+								<a href="../beast tamer.html">
+								<img src="https://cdn.statically.io/gh/gemme0/ToutAnime/main/img/beast%20tamer.jpeg" class="img-search"  loading="lazy">	
+								<div class="titre"> <h2> beast-tamer </h2> </div>
+								</a>
+							</div>
+				
+							<div  class="animals">
+								<a href="../demon slayer/demon slayer.html">
+								<img src="https://cdn.statically.io/gh/gemme0/ToutAnime/main/img/demon-slayer.webp" class="img-search"  loading="lazy">	
+								<div class="titre"> <h2> demon slayer </h2> </div>
+								</a>
+							</div>
+							<div  class="animals">
+								<a href="tokyo revengers.html">
+								<img src="https://cdn.statically.io/gh/gemme0/ToutAnime/main/img/tokyo%20revengers.jpg" class="img-search"  loading="lazy">	
+								<div class="titre"> <h2> tokyo-revengers </h2> </div>
+								</a>
+							</div>
+							<div  class="animals">
+								<a href="../demon slayer/demon slayer.html">
+								<img src="https://cdn.statically.io/gh/gemme0/ToutAnime/main/img/demon-slayer.webp" class="img-search"  loading="lazy">	
+								<div class="titre"> <h1> demon slayer </h1> </div>
+								</a>
+							</div>
+							<div  class="animals">
+								<a href="../oshi no ko/oshi.html">
+								<img src="https://img.anime2you.de/2023/03/oshi-no-ko-visual-english-1449x2048.jpg" class="img-search"  loading="lazy">	
+								<div class="titre"> <h1> oshi no ko </h1> </div>
+								</a>
+							</div>
+							<div  class="animals">
+								<a href="../demon slayer/demon slayer.html">
+								<img src="https://cdn.statically.io/gh/gemme0/ToutAnime/main/img/demon-slayer.webp" class="img-search"  loading="lazy">	
+								<div class="titre"> <h1> demon slayer </h1> </div>
+								</a>
+							</div>
+							<div  class="animals">
+								<a href="../demon slayer/demon slayer.html">
+								<img src="https://cdn.statically.io/gh/gemme0/ToutAnime/main/img/demon-slayer.webp" class="img-search"  loading="lazy">	
+								<div class="titre"> <h1> demon slayer </h1> </div>
+								</a>
+							</div>	
+						</ol>
+					</Div>
+			
+					<div class="selected">
+						recherche un animé en vf ou vostfr
+					</Div>
+				</Div>
+			</Div>
+			
+		</dive>
+        <script src="https://cdn.statically.io/gh/gemme0/ToutAnime/main/code.js"></script>
+	</header>
+    <section class="contour">
+		<div class="detail-oshi-no-ko">
+			<img class="detail-oshi-no-ko-img" src="https://somoskudasai.com/wp-content/uploads/2020/12/portada_oshi-no-ko-5.jpg" width="100%" height="100px">
+			<style> .detail-oshi-no-ko-img{object-fit: cover;} </style>
+			<div class="langue-vf-vo">
+				<a href="#" id="switchVF">
+					<img class="object-cover rounded h-8 w-11" src="https://cdn.statically.io/gh/Anime-Sama/IMG/img/autres/flag_fr.png" alt="Drapeau Français">
+					<p class="absolute">VF</p>
+				</a>
+
+				<a href="#" id="switchVO">
+					<img class="object-cover rounded h-8 w-11" src="https://cdn.statically.io/gh/Anime-Sama/IMG/img/autres/flag_jp.png" alt="Drapeau Japonais">
+					<p class="absolute">VO</p>
+				</a>
+				<style>
+					.langue-vf-vo{
+						display:flex;
+					}
+
+
+					.object-cover{
+					width: 50px;
+					}
+
+					.absolute{
+						color: black;
+						font-weight:bold;
+						margin-left: 14px;
+						margin-top: -27px;
+					}
+
+					#switchVO{
+						margin-left: 10px;
+					}
+				</style>
+			</div>
+		</div>
+		<div class="div-navig-episode-anime">
+			<li class="fin-navig-episode-anime">
+				<a>
+					episode precedant
+				</a>
+			</li>
+			<li class="bouton-navig-episode-anime">
+				<a href="./oshi.html">
+					episode actuelle : 1
+				</a>
+			</li>
+			<li class="bouton-navig-episode-anime">
+
+					<a href="./ep-2.html">
+						episode suivant
+					</a>
+			</li>
+		</div>
+		<div class="video">
+			<iframe width="640" height="384" src="https://video.sibnet.ru/shell.php?videoid=4927691" frameborder="0" scrolling="no" allowfullscreen></iframe>
+		</div>
+    </section>
+
+
+
+	<style>.info-oshi-no-ko{background-color: rgb(162, 0, 255);   display: flex;
+		flex-wrap: wrap;}
+	</style>
+
+	<style>
+
+	.fin-navig-episode-anime{
+		flex: 1;
+		display: flex;
+		justify-content: center;
+		border-radius: 20px;
+		margin: 20px;
+		padding: 10px;
+		text-decoration: none;
+		background-color: rgba(137, 43, 226, 0.492);
+	}
+
+	.div-navig-episode-anime{
+		display: flex;
+	}
+	.bouton-navig-episode-anime  {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+	text-decoration: none;
+	background-color: blueviolet;
+	
+    }
+
+	</style>
+</body>
+</html>
