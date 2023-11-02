@@ -1,180 +1,8 @@
-div.tout{
-  display: inline-block;
-  
-}
-
-.hautpage1{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
 * {
 margin: 0;
 box-sizing: border-box;
-}
-
-/* haut de page */
-#page1{
-  width:auto;
-  vertical-align: top;
-  background-color: #050908 ;
-}
-
-.hautpage1 div.navig{
-  
-  background-color: #050908 ;
-}
-
-section.hautpage1 {
-display: flex;
-flex-wrap: wrap;
-margin: 10px;
-}
-
-section.hautpage1 .navig {
-flex: 1;
-display: flex;
-justify-content: center;
-align-items: baseline;
-margin: 20px;
-padding: 10px;
 
 }
-
-/*  bouton  */
-
-div.navig nav ul{
-  padding-left: 15px;
-  vertical-align: top;
-  
-}
-nav ul li.bouton{
-  list-style-type: none;
-  display: inline-block;
-}
-nav ul li.bouton a{
-  text-decoration: none ;
-  padding:15px;
-  background-color : #400080;
-  color: white
-}
-nav ul li.bouton:hover a{
-  transition: 0.5s all;
-  background-color : white;
-  color: #400080
-}
-
-
-/* logo */
-div.logo-haut {
-  padding-top: px ;
-  vertical-align: top; 
-}
-
-/* search  */
-
-  .titre {
-  list-style-type: none;
-  display: inline-block;
-  vertical-align: top;
-  color: rgb(254, 249, 249);
-      
-    }
-
-.img-search {
-height: 150px;
-}
-
-#searchbar{
-  margin-left: 15%;
-  padding:15px;
-  border-radius: 10px;
-  }
-
-  .select-box {
-  display: flex;
-  width: 350px;
-  flex-direction: column;
-  }
-  
-  .select-box .options-container {
-  background: #7d7878;
-  color: #f5f6fa;
-  max-height: 0;
-  width: 100%;
-  opacity: 0;
-  transition: all 0.4s;
-  border-radius: 8px;
-  overflow: hidden;
-  
-  order: 1;
-  }
-  
-  .selected {
-  background: #71767c;
-  border-radius: 8px;
-  margin-bottom: 8px;
-  color: #f5f6fa;
-  position: relative;
-  
-  order: 0;
-  }
-  
-  .selected::after {
-  content: "";
-  background: url("img/arrow-down.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  
-  position: absolute;
-  height: 100%;
-  width: 32px;
-  right: 10px;
-  top: 5px;
-  
-  transition: all 0.4s;
-  }
-  
-  .select-box .options-container.active {
-  max-height: 240px;
-  opacity: 1;
-  overflow-y: scroll;
-  }
-  
-  .select-box .options-container.active + .selected::after {
-  transform: rotateX(180deg);
-  top: -6px;
-  }
-  
-  .select-box .options-container::-webkit-scrollbar {
-  width: 8px;
-  background: #0d141f;
-  border-radius: 0 8px 8px 0;
-  }
-  
-  .select-box .options-container::-webkit-scrollbar-thumb {
-  background: #525861;
-  border-radius: 0 8px 8px 0;
-  }
-  
-  .select-box .option,
-  .selected {
-  padding: 12px 24px;
-  cursor: pointer;
-  }
-  
-  .select-box .option:hover {
-  background: #414b57;
-  }
-  
-  .select-box label {
-  cursor: pointer;
-  }
-  
-  .select-box .option .radio {
-  display: none;
-  }
 
   /* slider */
   * , ::before, ::after {
@@ -183,15 +11,10 @@ height: 150px;
   padding: 0;
 }
 
-.page2 {
-  background:url(https://media.discordapp.net/attachments/1099056653283897344/1104513105414869144/Polish_20230506_224952188.jpg?width=1102&height=522);
-  width: 100%;
-  height: 500px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 .slider-1 {
   max-width: 600px;
-  margin: 100px auto;
+  margin: auto;
   overflow: hidden;
 }
 .slider-1 .slider {
@@ -254,11 +77,57 @@ a:hover {
   transform: translateX(-400%);
   }
 }
+section.pub{
+  background-color: #575b5b;
+}
 
+/* anime vf */
+
+.contour{
+  background-color: #575b5b;
+  padding: 80px;
+}
+
+div.anime{
+  height: 500px;
+  background-color: #575b5b;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* oshi no ko */
+
+.oshi-no-ko-saison-1{
+  background-color: gray;
+  padding:25px;
+
+
+}
+
+.episode{ 
+  list-style-type: none;
+  padding: 15px;
+  background-color: blueviolet;
+ 
+
+}
+
+.jsp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+
+h1.oshi-no-ko-titre{
+  font-size: 35px;
+}
 
 body{
 border: none;
 margin: 0px;
-  background-color: #575b5b 
-
 }
