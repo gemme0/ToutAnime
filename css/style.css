@@ -127,62 +127,6 @@ h1.oshi-no-ko-titre{
   font-size: 35px;
 }
 
-/* navid anime*/
-	.fin-navig-episode-anime{
-		flex: 1;
-		display: flex;
-		justify-content: center;
-		border-radius: 20px;
-		margin: 20px;
-		padding: 10px;
-		text-decoration: none;
-		background-color: rgba(137, 43, 226, 0.492);
-	}
-
-	.div-navig-episode-anime{
-		display: flex;
-	}
-	.bouton-navig-episode-anime  {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    border-radius: 20px;
-    margin: 20px;
-    padding: 10px;
-	text-decoration: none;
-	background-color: blueviolet;
-	
-    }
-
-/* video*/
-
-				.video{
-					display: flex;
-					justify-content: center;
-				}
-
-/* detail anime*/
-					.langue-vf-vo{
-						margin-top: 10px;
-						display:flex;
-					}
-
-
-					.object-cover{
-					width: 50px;
-					}
-
-					.absolute{
-						color: black;
-						font-weight:bold;
-						margin-left: 14px;
-						margin-top: -27px;
-					}
-
-					#switchVO{
-						margin-left: 10px;
-					}
-
 body{
 border: none;
 margin: 0px;
